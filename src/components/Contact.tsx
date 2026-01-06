@@ -21,14 +21,14 @@ const contactInfo = [
     icon: Linkedin,
     label: 'LinkedIn',
     value: 'LinkedIn Profile',
-    href: 'https://linkedin.com/in/ikanengthekiso',
+    href: 'www.linkedin.com/in/ikaneng-thekiso',
   },
 ];
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: '',
+    email: 'ikanengthekiso@gmail.com',
     message: '',
   });
 
