@@ -10,17 +10,22 @@ const About = () => {
 
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              I'm a passionate developer with a strong foundation in software engineering, 
-              eager to keep learning and growing in the tech industry.
+              I am a highly motivated Applied Mathematics and Operations Research graduate 
+              with a strong passion for solving complex problems. I am eager to work in a 
+              data-focused role where I can apply computational and analytical techniques 
+              to deliver meaningful solutions.
             </p>
             <p>
-              My experience spans full-stack development and creating user-centric applications. 
-              I enjoy working with modern technologies and frameworks, and I love collaborating 
-              with teams to build impactful solutions.
+              My specialisation in applied mathematics has provided me with a solid foundation 
+              in optimisation methods and quantitative analysis, skills that are valuable across 
+              many industries. I have extensive experience in credit risk, financial markets, 
+              and liquidity risk analysis.
             </p>
             <p>
-              Currently, I'm focused on expanding my skill set while taking on new challenges 
-              and contributing to meaningful projects.
+              Currently working as a Quantitative Analyst at Investec, I've gained exposure 
+              across multiple units including Treasury, Derivative Pricing, IFRS 9, and the 
+              Private Bank Data team, developing both technical expertise and valuable 
+              business perspective.
             </p>
           </div>
         </div>

@@ -1,15 +1,19 @@
 const skillCategories = [
   {
-    title: 'technical_skills',
-    skills: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'Python', 'SQL', 'HTML/CSS', 'Git'],
+    title: 'hard_skills',
+    skills: ['Python', 'R (Simulations & Markov Processes)', 'Matlab', 'Lingo', 'Excel', 'SQL', 'Azure (AZ-900 in progress)'],
   },
   {
-    title: 'tools_&_platforms',
-    skills: ['VS Code', 'GitHub', 'Docker', 'PostgreSQL', 'MongoDB', 'Firebase', 'Linux', 'Figma'],
+    title: 'frameworks_&_tools',
+    skills: ['PyTorch', 'Streamlit', 'Riskflow', 'Front Arena', 'n8n', 'Power Automate'],
+  },
+  {
+    title: 'domains',
+    skills: ['Quantitative Analysis', 'Derivative Pricing', 'Credit Risk', 'IFRS 9', 'Liquidity Risk', 'Data Analytics', 'Financial Modeling'],
   },
   {
     title: 'soft_skills',
-    skills: ['Communication', 'Problem Solving', 'Team Collaboration', 'Time Management', 'Adaptability'],
+    skills: ['Interpersonal Skills', 'Decision Making', 'Communication', 'Adaptability', 'Work Ethic', 'Teamwork'],
   },
 ];
 
