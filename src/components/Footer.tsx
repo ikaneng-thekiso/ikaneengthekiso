@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Ikaneng Thekiso. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm font-mono">
             Built with <span className="text-primary">♥</span>

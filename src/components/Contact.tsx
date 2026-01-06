@@ -8,20 +8,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'your.email@example.com',
-    href: 'mailto:your.email@example.com',
+    value: 'ikanengthekiso@gmail.com',
+    href: 'mailto:ikanengthekiso@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+27 00 000 0000',
-    href: 'tel:+27000000000',
+    value: '+27 82 421 4737',
+    href: 'tel:+27824214737',
   },
   {
     icon: Linkedin,
     label: 'LinkedIn',
     value: 'LinkedIn Profile',
-    href: 'https://linkedin.com',
+    href: 'https://linkedin.com/in/ikanengthekiso',
   },
 ];
 
@@ -76,7 +76,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="text-foreground font-medium">South Africa</p>
+                  <p className="text-foreground font-medium">Gauteng, South Africa</p>
                 </div>
               </div>
             </div>

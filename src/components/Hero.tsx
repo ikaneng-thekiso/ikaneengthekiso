@@ -1,4 +1,4 @@
-import { ArrowDown, Download, Mail, Linkedin, Github } from 'lucide-react';
+import { ArrowDown, Download, Mail, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profileImage from '@/assets/profile-placeholder.jpg';
 
@@ -11,14 +11,15 @@ const Hero = () => {
           <div className="animate-fade-in-up">
             <p className="text-primary font-mono text-sm mb-4">Hi, my name is</p>
             <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4">
-              Your Name
+              Ikaneng Thekiso
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-              Software Developer | Creative Thinker
+              Quantitative Analyst | Applied Mathematics
             </p>
             <p className="text-muted-foreground max-w-lg mb-8 leading-relaxed">
-              I craft digital experiences and build innovative solutions. 
-              A passionate developer always eager to learn and take on new challenges.
+              I am a highly motivated Applied Mathematics and Operations Research graduate 
+              with a strong passion for solving complex problems using computational and 
+              analytical techniques to deliver meaningful solutions.
             </p>
 
             {/* CTA Buttons */}
@@ -36,26 +37,18 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:ikanengthekiso@gmail.com"
                 className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
               >
                 <Mail size={18} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/ikanengthekiso"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
               >
                 <Linkedin size={18} />
-              </a>
-              <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
-              >
-                <Github size={18} />
               </a>
             </div>
           </div>
@@ -66,7 +59,7 @@ const Hero = () => {
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary animate-pulse-glow">
                 <img
                   src={profileImage}
-                  alt="Profile"
+                  alt="Ikaneng Thekiso"
                   className="w-full h-full object-cover"
                 />
               </div>
