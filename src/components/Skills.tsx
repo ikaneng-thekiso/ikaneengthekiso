@@ -1,7 +1,7 @@
 const skillCategories = [
   {
     title: 'hard_skills',
-    skills: ['Python', 'R (Simulations & Markov Processes)', 'Matlab', 'Lingo', 'Excel', 'SQL', 'Azure (AZ-900 in progress)'],
+    skills: ['Python', 'R (Simulations & Markov Processes)', 'Matlab', 'Lingo', 'Excel', 'SQL', 'Azure (AZ-900 Certified)'],
   },
   {
     title: 'frameworks_&_tools',
