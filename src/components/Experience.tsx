@@ -13,13 +13,14 @@ const experiences = [
           'Respond to stakeholder requests and provide data analysis supporting key business decisions',
           'Analysed clients who default and identified early indicators using data-driven insights',
           'Supported both the Fraud team and Visa on critical initiatives',
+           'Worked on two major new business cases and provided insights on both. Used a combination of internal and external data to build the business cases and to explore potential pricing options to ensure the product remainscompetitive.',
+           'Using AI and Python (Playwright), I built aweb-scraping tool to gather data from the internet and help estimate market size.',
         ],
       },
       {
         name: 'Treasury',
         achievements: [
-          'Assisted with counterparty credit work, focused on collateral processes',
-          'Built sensitivity tool in Riskflow to assess portfolio risk shocks',
+    
           'Gained exposure to core banking concepts including NSFR, LCR, and FTP',
           'Attended ALCO and LPPF meetings on a monthly basis',
           'Analysed bank assets and developed views highlighting funding costs, capital costs, and ROE',
@@ -31,19 +32,18 @@ const experiences = [
         achievements: [
           'Developed Python script comparing Front Arena with Riskflow pricing system',
           'Bootstrapped yield curves and replicated exotic derivative pricing',
-          'Performed ECL calculations and assisted with end-to-end model development',
-          'Designed alternative approach for calculating regression coefficients with constrained percentage contribution',
-          'Implemented projected gradient descent into IFRS 9 code to automate model selection',
+          'Assisted with counterparty credit work, focused on collateral processes.',
+          'Towards the end of my rotation I started building a sensitivity tool in Riskflow to assess portfolio risk shocks.',
         ],
       },
    {
-        name: 'Derivative Pricing',
+        name: 'IFRS 9 Model Development',
         achievements: [
-          'Developed Python script comparing Front Arena with Riskflow pricing system',
-          'Bootstrapped yield curves and replicated exotic derivative pricing',
-          'Performed ECL calculations and assisted with end-to-end model development',
+          'Performed ECL calculations and assisted with the end-to-end model development process, including data preprocessing and backtesting of credit risk models.',
+          'Conducted extensive data cleaning in Python to ensure data quality and improve model reliability.',
           'Designed alternative approach for calculating regression coefficients with constrained percentage contribution',
-          'Implemented projected gradient descent into IFRS 9 code to automate model selection',
+          'Implemented projected gradient descent into IFRS 9 code to automate model selection',   
+          'Collaborated with quantitative analysts and risk managers to test model outputs, validate assumptions, and present findings to stakeholders.',
         ],
       },
 
