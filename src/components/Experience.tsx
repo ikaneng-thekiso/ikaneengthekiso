@@ -36,6 +36,18 @@ const experiences = [
           'Implemented projected gradient descent into IFRS 9 code to automate model selection',
         ],
       },
+   {
+        name: 'Derivative Pricing',
+        achievements: [
+          'Developed Python script comparing Front Arena with Riskflow pricing system',
+          'Bootstrapped yield curves and replicated exotic derivative pricing',
+          'Performed ECL calculations and assisted with end-to-end model development',
+          'Designed alternative approach for calculating regression coefficients with constrained percentage contribution',
+          'Implemented projected gradient descent into IFRS 9 code to automate model selection',
+        ],
+      },
+
+
     ],
   },
 ];
