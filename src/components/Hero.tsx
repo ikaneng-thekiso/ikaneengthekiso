@@ -37,7 +37,7 @@ const Hero = () => {
               <a href="mailto:ikanengthekiso@gmail.com" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300">
                 <Mail size={18} />
               </a>
-              <a href="https://www.linkedin.com/in/ikaneng-thekiso" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300">
+              <a href="https://www.linkedin.com/in/ikaneng-thekiso/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300">
                 <Linkedin size={18} />
               </a>
             </div>
