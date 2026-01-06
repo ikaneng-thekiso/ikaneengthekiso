@@ -1,10 +1,8 @@
 import { ArrowDown, Download, Mail, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import profileImage from '@/assets/profile-placeholder.jpg';
-
 const Hero = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center matrix-bg relative pt-20">
+  return <section className="min-h-screen flex items-center justify-center matrix-bg relative pt-20">
       <div className="container mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -36,18 +34,10 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-4">
-              <a
-                href="mailto:ikanengthekiso@gmail.com"
-                className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
-              >
+              <a href="mailto:ikanengthekiso@gmail.com" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300">
                 <Mail size={18} />
               </a>
-              <a
-                href="https://linkedin.com/in/ikanengthekiso"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300"
-              >
+              <a href="https://linkedin.com/in/ikanengthekiso" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-all duration-300">
                 <Linkedin size={18} />
               </a>
             </div>
@@ -57,11 +47,7 @@ const Hero = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-primary animate-pulse-glow">
-                <img
-                  src={profileImage}
-                  alt="Ikaneng Thekiso"
-                  className="w-full h-full object-cover"
-                />
+                <img alt="Ikaneng Thekiso" className="w-full h-full object-cover" src="/lovable-uploads/bc91f882-03f5-4f0f-b597-45575fff6008.png" />
               </div>
             </div>
           </div>
@@ -73,8 +59,6 @@ const Hero = () => {
           <ArrowDown size={20} className="text-primary" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
