@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const contactInfo = [
   {
@@ -21,21 +22,40 @@ const contactInfo = [
     icon: Linkedin,
     label: 'LinkedIn',
     value: 'LinkedIn Profile',
-    href: 'www.linkedin.com/in/ikaneng-thekiso',
+    href: 'https://www.linkedin.com/in/ikaneng-thekiso',
   },
 ];
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
-    email: 'ikanengthekiso@gmail.com',
+    email: '',
     message: '',
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission
-    console.log('Form submitted:', formData);
+    setLoading(true);
+
+    // Replace these with your EmailJS credentials
+    const SERVICE_ID = 'YOUR_SERVICE_ID';
+    const TEMPLATE_ID = 'YOUR_TEMPLATE_ID';
+    const PUBLIC_KEY = 'YOUR_PUBLIC_KEY';
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, formData, PUBLIC_KEY)
+      .then((result) => {
+        console.log('Message sent:', result.text);
+        alert('Message sent successfully!');
+        setFormData({ name: '', email: '', message: '' });
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error('Error sending message:', error.text);
+        alert('Failed to send message. Please try again.');
+        setLoading(false);
+      });
   };
 
   return (
@@ -89,6 +109,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="bg-card border-border focus:border-primary"
+                  required
                 />
               </div>
               <div>
@@ -98,6 +119,7 @@ const Contact = () => {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="bg-card border-border focus:border-primary"
+                  required
                 />
               </div>
               <div>
@@ -107,13 +129,15 @@ const Contact = () => {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   className="bg-card border-border focus:border-primary resize-none"
+                  required
                 />
               </div>
               <Button 
                 type="submit" 
                 className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                disabled={loading}
               >
-                Send Message
+                {loading ? 'Sending...' : 'Send Message'}
               </Button>
             </form>
           </div>
